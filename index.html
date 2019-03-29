@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Codystar|Geostar" rel="stylesheet">
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	<div class="top"></div>
+	<div class="top2"></div>
+	<div class="container">
+		<img src="logo.png" id="logo">
+		<header>Hangman</header>
+		<div id="firsttime">
+		</div>
+		<div class="yourword">
+			<span id="word"></span>
+		</div>
+		<div class="main">
+			Wins: <span id="wins"></span>
+		</div>
+		<div class="main">
+			Loses: <span id="loses"></span>
+		</div>
+		<div class="main">
+		<button class="btn" onclick="newGame()">Press To Start</button>
+		</div>
+		<div id="guessword">
+		</div>
+		<div class="main">
+			Remaining Turns: <span id="guesses"></span>
+		</div>
+		<div class="miss">
+			<span id="misses"></span>
+		</div>
+		<div class="main">
+			Wrong letters:
+		</div>
+	</div>
+	<div class="bottom2"></div>
+	<div class="bottom"></div>
+</body>
+</html>

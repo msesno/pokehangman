@@ -1,0 +1,85 @@
+
+body {
+	background: lightblue;
+}
+
+.container {
+	width: 90%;
+	text-align: center;
+}
+
+.top {
+	height: 20px;
+	width: 100%;
+	background-color: lightcoral;
+}
+
+.top2 {
+	height: 5px;
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	background-color: lightcoral;
+	height: 20px;
+	width: 100%;
+	z-index: 1;
+}
+
+.bottom2 {
+	position: absolute;
+	bottom: 0;
+	background-color: #fff;
+	height: 25px;
+	width: 100%;
+}
+
+.counters {
+	float: left;
+}
+
+button {
+	color: lightblue;
+	background-color:lightcoral;
+}
+
+
+header {
+	font-family: 'Codystar';
+	font-size: 60px;
+}
+
+#guessword {
+	
+	font-family: 'Geostar';
+	font-size: 32px;
+	height: 100px;
+}
+
+#logo {
+	height: 65px;
+}
+
+.main {
+	/*margin-left: 100px;*/
+	height: 30px;
+	width: 100%;
+}
+
+.miss {
+	height: 40px;
+	font-size: 30px;
+}
+
+.yourword {
+	height: 30px;
+	font-size: 30px;
+}
+
+#firsttime {
+	height: 20px;
+}

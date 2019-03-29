@@ -1,2 +1,4 @@
 # pokehangman
-hangman with pokemon
+hangman w pokemon
+
+https://github.com/msesno/pokehangman
